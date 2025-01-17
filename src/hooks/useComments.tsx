@@ -4,6 +4,7 @@ import { ValidNetwork, Keychain } from "@daohaus/keychain-utils";
 import { listRecords } from "@daohaus/moloch-v3-data";
 import { handleErrorMessage } from "@daohaus/utils";
 
+// custom hook for graphapikeys
 
 const defaultGraphApiKeys = {
   "0x1": import.meta.env.VITE_GRAPH_API_KEY_MAINNET,
